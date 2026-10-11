@@ -11,8 +11,6 @@ SkidSense 手机端（Android）的安装包和自动更新源。源代码在私
 | 模拟器（x86_64） | `SkidSense-<版本>-android-x64.apk` |
 | 不确定是哪种 | `SkidSense-<版本>-android-universal.apk`（包含全部架构，体积较大） |
 
-`.aab` 是给应用商店用的，手机不能直接安装。
-
 ## 安装
 
 1. 下载 APK，用浏览器或文件管理器打开。
