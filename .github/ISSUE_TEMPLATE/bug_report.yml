@@ -1,0 +1,101 @@
+name: 问题反馈
+description: 报告 SkidSense 手机端的 bug。请把手机、系统、版本、复现步骤写清楚，否则很难定位。
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！提交前请先在 [已有 Issue](https://github.com/LoserLiunian/SkidSense-Dart-Release/issues?q=is%3Aissue) 里搜一下，同一个问题请在原 Issue 下补充。电脑端的问题请到 [SkidSense-Release](https://github.com/LoserLiunian/SkidSense-Release/issues) 反馈。
+
+        下面每一项都会用来复现问题。信息越具体，修得越快。
+
+  - type: input
+    id: device
+    attributes:
+      label: 手机型号与系统版本
+      description: 「设置 → 关于手机」里可以看到。
+      placeholder: 例如 Pixel 9（Android 16）/ 小米 15（HyperOS 3）
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: SkidSense 手机端版本
+      description: 「设置 → 关于」里的版本号。
+      placeholder: 例如 1.2.0
+    validations:
+      required: true
+
+  - type: input
+    id: desktop-version
+    attributes:
+      label: 电脑端版本
+      description: 和电脑连接有关的问题请填写；电脑端侧栏左下角可以看到。
+      placeholder: 例如 1.1.6
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 一两句话说明是什么问题、出现在哪里。
+      placeholder: 打开电脑后，对话列表一直显示正在加载。
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 从打开应用开始，一步一步写。别人照着做应该能看到同样的问题。请写明是局域网还是中继连接。
+      placeholder: |
+        1. 打开 SkidSense，登录
+        2. 点进已配对的电脑（中继连接）
+        3. 看到 ……
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: 复现结果
+      description: 按上面的步骤操作后，实际看到了什么，你原本期望看到什么。有报错的话请原样贴出完整文字。
+      placeholder: |
+        实际：一直显示「正在加载对话」
+        期望：显示对话列表
+    validations:
+      required: true
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: 问题截图
+      description: 截图或录屏，能看清问题出现的位置和文字。
+    validations:
+      required: true
+      accept: ".png,.jpg,.jpeg,.gif,.webp,.mp4,.mov,.webm,.log,.txt,.zip"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充信息
+      description: 选填。比如是升级后才出现的、只在某个网络下出现、用了代理等。
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索过已有 Issue，没有重复
+          required: true
+        - label: 我已更新到最新版本，问题仍然存在
+          required: true
+        - label: 我按上面的复现步骤重新操作过一遍，问题确实能复现
+          required: true
+        - label: 手机、版本、问题描述和截图都已如实填写
+          required: true
