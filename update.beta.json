@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0-beta.1",
+  "published": "2026-10-11T14:26:04.251987Z",
+  "notes": "首个 Android 测试版。\n\n- 使用正式签名发布，并以 R8 与 Dart 混淆优化体积与性能。\n- 支持应用内更新：启动时自动检查；也可在「设置 → 应用更新」手动检查，开启「Beta 更新」接收测试版。\n- 之前装过开发版（CI 产物）的手机，需先卸载一次再安装此版本。\n",
+  "releasePage": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/tag/v1.0.0-beta.1",
+  "downloads": [
+    {
+      "platform": "android-arm64",
+      "label": "Android（arm64，大多数手机）",
+      "abi": "arm64-v8a",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0-beta.1/SkidSense-1.0.0-beta.1-android-arm64.apk",
+      "sha256": "3e407a7d910314b72764b8e889de9243711b7598b48aa79416525541cbe94f23",
+      "size": 32077825
+    },
+    {
+      "platform": "android-arm",
+      "label": "Android（32 位 ARM，较旧的手机）",
+      "abi": "armeabi-v7a",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0-beta.1/SkidSense-1.0.0-beta.1-android-arm.apk",
+      "sha256": "b0b8fcac85fa3558a708c4ac40cf2ebcf98174a8b604fcd43db852bf11e28131",
+      "size": 28227599
+    },
+    {
+      "platform": "android-x64",
+      "label": "Android（x86_64，模拟器）",
+      "abi": "x86_64",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0-beta.1/SkidSense-1.0.0-beta.1-android-x64.apk",
+      "sha256": "b3a031607ee45d31a60fe4c6399d9c943a594a2fff23e0d83c52e3c8142b7c4c",
+      "size": 34682860
+    },
+    {
+      "platform": "android-universal",
+      "label": "Android（通用，包含全部架构，体积较大）",
+      "abi": "universal",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0-beta.1/SkidSense-1.0.0-beta.1-android-universal.apk",
+      "sha256": "94605c79466fc93be8f131cc11692978b8dad28350e8c655a0628883af237708",
+      "size": 84512690
+    }
+  ]
+}
