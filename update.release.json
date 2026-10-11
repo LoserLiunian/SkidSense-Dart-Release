@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "published": "2026-10-11T14:58:37.112812Z",
+  "notes": "First Release\n",
+  "releasePage": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/tag/v1.0.0",
+  "downloads": [
+    {
+      "platform": "android-arm64",
+      "label": "Android（arm64，大多数手机）",
+      "abi": "arm64-v8a",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-arm64.apk",
+      "sha256": "49003a69585d76673a6705c36d57c85592617e51484a518a9908ca242d0cc29a",
+      "size": 32077825
+    },
+    {
+      "platform": "android-arm",
+      "label": "Android（32 位 ARM，较旧的手机）",
+      "abi": "armeabi-v7a",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-arm.apk",
+      "sha256": "e9f33d5a5ba1689c9e306aa6321b2a7bd84ac4dd83839f77ca01707e8c9b3702",
+      "size": 28227599
+    },
+    {
+      "platform": "android-x64",
+      "label": "Android（x86_64，模拟器）",
+      "abi": "x86_64",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-x64.apk",
+      "sha256": "44cf6ba65bf02520be1ffbfa249ba7ba56addedb97500c568c9b0e28a31a63a4",
+      "size": 34682860
+    },
+    {
+      "platform": "android-universal",
+      "label": "Android（通用，包含全部架构，体积较大）",
+      "abi": "universal",
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-universal.apk",
+      "sha256": "5699250e7fcbff0c7880ff405d36b2a62599e98e55574d62932c51344be9e033",
+      "size": 84512686
+    }
+  ]
+}
