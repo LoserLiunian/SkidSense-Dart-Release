@@ -1,40 +1,40 @@
 {
-  "version": "1.0.0",
-  "published": "2026-10-11T14:58:37.112812Z",
-  "notes": "First Release\n",
-  "releasePage": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/tag/v1.0.0",
+  "version": "1.0.1",
+  "published": "2026-10-14T02:09:54.167425Z",
+  "notes": "提高穩定性，修復遠程控制的Bug，新增端口转发功能，工作完成自动发通知\n",
+  "releasePage": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/tag/v1.0.1",
   "downloads": [
     {
       "platform": "android-arm64",
       "label": "Android（arm64，大多数手机）",
       "abi": "arm64-v8a",
-      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-arm64.apk",
-      "sha256": "49003a69585d76673a6705c36d57c85592617e51484a518a9908ca242d0cc29a",
-      "size": 32077825
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.1/SkidSense-1.0.1-android-arm64.apk",
+      "sha256": "0d7e46fca32b9badac7ed2f9658ed12746b765cfc508756fc1ce9f4049b99d03",
+      "size": 32733346
     },
     {
       "platform": "android-arm",
       "label": "Android（32 位 ARM，较旧的手机）",
       "abi": "armeabi-v7a",
-      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-arm.apk",
-      "sha256": "e9f33d5a5ba1689c9e306aa6321b2a7bd84ac4dd83839f77ca01707e8c9b3702",
-      "size": 28227599
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.1/SkidSense-1.0.1-android-arm.apk",
+      "sha256": "34dc91cf51aefbf35e04d5e4a2b8ca674077cb516f1b5a707e841cfeddcb426f",
+      "size": 28879024
     },
     {
       "platform": "android-x64",
       "label": "Android（x86_64，模拟器）",
       "abi": "x86_64",
-      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-x64.apk",
-      "sha256": "44cf6ba65bf02520be1ffbfa249ba7ba56addedb97500c568c9b0e28a31a63a4",
-      "size": 34682860
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.1/SkidSense-1.0.1-android-x64.apk",
+      "sha256": "292aa0933b3c62eec5313f68e8206e32a83180662fe5401dcc70df38e75952be",
+      "size": 35338381
     },
     {
       "platform": "android-universal",
       "label": "Android（通用，包含全部架构，体积较大）",
       "abi": "universal",
-      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.0/SkidSense-1.0.0-android-universal.apk",
-      "sha256": "5699250e7fcbff0c7880ff405d36b2a62599e98e55574d62932c51344be9e033",
-      "size": 84512686
+      "url": "https://github.com/LoserLiunian/SkidSense-Dart-Release/releases/download/v1.0.1/SkidSense-1.0.1-android-universal.apk",
+      "sha256": "5553d62da7e3af19bf7cd1066915c99372bdb9110ee3e023f94cc2e9411fa81d",
+      "size": 86215411
     }
   ]
 }
